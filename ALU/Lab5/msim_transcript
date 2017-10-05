@@ -1,0 +1,54 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do alu_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {alu.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# 
+# vlog -sv -work work +incdir+C:/altera/13.0sp1/../../Users/Win7/Desktop/Lab5 {C:/altera/13.0sp1/../../Users/Win7/Desktop/Lab5/talu.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module talu
+# 
+# Top level modules:
+# 	talu
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  talu
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps talu 
+# Loading sv_std.std
+# Loading work.talu
+# Loading work.alu
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from alu_v.sdo
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from alu_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /talu File: C:/altera/13.0sp1/../../Users/Win7/Desktop/Lab5/talu.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#         21 tests completed with          0 errors
+# Break in Module talu at C:/altera/13.0sp1/../../Users/Win7/Desktop/Lab5/talu.sv line 50
+# Simulation Breakpoint: Break in Module talu at C:/altera/13.0sp1/../../Users/Win7/Desktop/Lab5/talu.sv line 50
+# MACRO ./alu_run_msim_gate_verilog.do PAUSED at line 17
