@@ -1,0 +1,138 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\alef\Desktop\Arquitetura_de_Computadores\Bus\Bus
+vmux
+!i10b 1
+!s100 IS>fO=6QW4nLd4U7O8?<I1
+IDaDHA;;gZ3a_R=18K2BOn2
+Z1 VdDOb<g<GaAih8L8[><NVz3
+Z2 dC:\Users\Win7\Desktop\Crossbar
+w1492604572
+Z3 8mux.v
+Z4 Fmux.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1492604580.430000
+Z7 !s107 trin.v|t_swap.v|swap.v|shiftr.v|regn.v|mux.v|
+Z8 !s90 -reportprogress|300|mux.v|regn.v|shiftr.v|swap.v|t_swap.v|trin.v|
+!s101 -O0
+o-O0
+vmux4to1
+Z9 !s100 b?^C?]SO7NBBP`YTSm<gX1
+Z10 IP>b<8jR?<cnoWP=::FSb^1
+Z11 ViL2MOcmLH2<oZK004?@RT0
+R2
+Z12 w1492400717
+Z13 8mux4to1.v
+Z14 Fmux4to1.v
+L0 1
+R5
+r1
+31
+Z15 !s108 1492400916.404000
+Z16 !s107 trin.v|t_swap.v|swap.v|shiftr.v|regn.v|mux4to1.v|
+Z17 !s90 -reportprogress|300|mux4to1.v|regn.v|shiftr.v|swap.v|t_swap.v|trin.v|
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vregn
+!i10b 1
+Z18 !s100 eKohUEnWmDhJTC?Rbh4XT1
+Z19 I=hf:EAa@3MXJ`Wl784NTG0
+Z20 VenLlR^V91e6eVjPnA9z8_0
+R2
+Z21 w1492403149
+Z22 8regn.v
+Z23 Fregn.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
+vshiftr
+!i10b 1
+Z24 !s100 58IJ`l1oB=ZCZoTn1C9[>2
+Z25 I7:HNX9Re>7lmKl^3HjbfQ3
+Z26 VMlEllE_jDe42SooB0E`0=2
+R2
+Z27 w1492604401
+Z28 8shiftr.v
+Z29 Fshiftr.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
+vswap
+!i10b 1
+Z30 !s100 RA9W`mzmh4G440c]C3L0A1
+Z31 I[CMG^>i[7L`7SDjE=eN`R3
+Z32 V:]PoO2VNQYUf53gNd[I[22
+R2
+Z33 w1492403583
+Z34 8swap.v
+Z35 Fswap.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
+vt_swap
+!i10b 1
+Z36 !s100 3mULgkVLbXGzEPaC<HbNf3
+Z37 IAA4zgkmDC:[O2>ChdMAEb3
+Z38 V_nFOZ7NRGaiadi?;LoH=f0
+R2
+Z39 w1492402668
+Z40 8t_swap.v
+Z41 Ft_swap.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0
+vtrin
+!i10b 1
+Z42 !s100 G^GTM3Lfh7U]AN4;=gDkW2
+Z43 IkH==R>cLk6YOG7Q@TUzHl2
+Z44 VP[4CZ`AbGLhR5ldNQH0Eo3
+R2
+Z45 w1492403340
+Z46 8trin.v
+Z47 Ftrin.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0

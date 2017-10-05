@@ -1,0 +1,8 @@
+Alterações:
+
+Implementação da instrução ror no mipsmult. Foram alterados os seguintes arquivos:
+
+- do.do
+- mipsmult.sv
+- alu.sv
+- memfile.dat
